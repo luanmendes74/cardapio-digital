@@ -1,0 +1,38 @@
+1. Vendas e Faturamento
+
+ Faturamento diário, semanal, mensal e anual
+
+ Comparativo de períodos (ex: mês atual vs. mês passado)
+
+ Ticket médio mensal
+
+ Total de pedidos realizados por período
+
+2. Produtos
+
+ Produtos mais vendidos (ranking TOP 10)
+
+ Produtos com baixa saída (para repensar se vale manter)
+
+3. Pedidos
+
+Origem do pedido (mesa, delivery)
+
+Tempo médio de preparo/atendimento
+
+6. Mesas
+
+ Mesa mais usada
+
+Tempo médio de ocupação por mesa
+
+ Consumo médio por mesa
+
+7. Performance do Estabelecimento
+
+ Horários de maior movimento (ex: pico no almoço, jantar)
+
+ Dias da semana mais fortes
+
+ Dias fracos (onde podem aplicar promoções)
+

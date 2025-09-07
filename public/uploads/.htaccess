@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # --- REGRA ADICIONADA ---
+    # Se a URL começar com 'uploads/', para de reescrever e serve o ficheiro diretamente.
+    # Isto permite o acesso direto a imagens, QR codes, etc.
+    RewriteRule ^(uploads/.*)$ - [L]
+
+    # Redireciona todas as outras requisições que não são ficheiros ou diretórios
+    # para o index.php, que é o nosso roteador principal.
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+</IfModule>
+
